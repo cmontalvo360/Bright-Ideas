@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Contact";
+}
+
+<a href="http://localhost:5000/bright_ideas">Bright Ideas</a>
+<a href="http://localhost:5000/logout">Logout</a>
+<h1>Show Idea!</h1>
+
+<p><a href="http://localhost:5000/users/@ViewBag.showIdea.CreatorId">@ViewBag.showIdea.Creator.Alias</a> says:  @ViewBag.showIdea.Description</p>
+<br>
+<br>
+
+<h4>People who liked this post:</h4>
+
+<table style="width:60%">
+    <tr>
+        <th>Alias</th>
+        <th>Name</th>
+    </tr>
+    @foreach(var x in ViewBag.showIdea.Attendees){
+        <tr>
+            <td><a href="http://localhost:5000/users/@x.User.UserId">@x.User.Alias</a></td>
+            <td>@x.User.Name</td>
+        </tr>
+    }
+</table>

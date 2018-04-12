@@ -1,0 +1,10 @@
+C:\Users\cam\Desktop\c#\Bright_Ideas\obj\Debug\netcoreapp2.0\Bright_Ideas.csproj.CoreCompileInputs.cache
+C:\Users\cam\Desktop\c#\Bright_Ideas\obj\Debug\netcoreapp2.0\Bright_Ideas.AssemblyInfoInputs.cache
+C:\Users\cam\Desktop\c#\Bright_Ideas\obj\Debug\netcoreapp2.0\Bright_Ideas.AssemblyInfo.cs
+C:\Users\cam\Desktop\c#\Bright_Ideas\bin\Debug\netcoreapp2.0\Bright_Ideas.deps.json
+C:\Users\cam\Desktop\c#\Bright_Ideas\bin\Debug\netcoreapp2.0\Bright_Ideas.runtimeconfig.json
+C:\Users\cam\Desktop\c#\Bright_Ideas\bin\Debug\netcoreapp2.0\Bright_Ideas.runtimeconfig.dev.json
+C:\Users\cam\Desktop\c#\Bright_Ideas\bin\Debug\netcoreapp2.0\Bright_Ideas.dll
+C:\Users\cam\Desktop\c#\Bright_Ideas\bin\Debug\netcoreapp2.0\Bright_Ideas.pdb
+C:\Users\cam\Desktop\c#\Bright_Ideas\obj\Debug\netcoreapp2.0\Bright_Ideas.dll
+C:\Users\cam\Desktop\c#\Bright_Ideas\obj\Debug\netcoreapp2.0\Bright_Ideas.pdb

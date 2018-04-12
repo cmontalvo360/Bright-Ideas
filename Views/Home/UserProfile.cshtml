@@ -1,0 +1,15 @@
+@{
+    ViewData["Title"] = "Contact";
+}
+
+<a href="http://localhost:5000/bright_ideas">Bright Ideas</a>
+<a href="http://localhost:5000/logout">Logout</a>
+
+
+<h3>Name: @ViewBag.showUser.Name</h3>
+<h3>Alias: @ViewBag.showUser.Alias</h3>
+<h3>Email: @ViewBag.showUser.Email</h3>
+
+
+<h4>Total Number of Posts: @ViewBag.showCount</h4>
+<h4>Total Number of Likes: @ViewBag.showLikes</h4>

@@ -1,0 +1,32 @@
+﻿@model Bright_Ideas.Models.UserViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+<h1>Welcome!</h1>
+
+<h1>Register</h1>
+
+<form asp-controller="Home" asp-action="Register" method="POST">
+    <label asp-for="Name"></label>
+    <input asp-for="Name"><span asp-validation-for="Name"></span><br>
+    <label asp-for="Alias"></label>
+    <input asp-for="Alias"><span asp-validation-for="Alias"></span><br>
+    <label asp-for="Email"></label>
+    <input asp-for="Email"><span asp-validation-for="Email"></span><br>
+    <label asp-for="Password"></label>
+    <input asp-for="Password"><span asp-validation-for="Password"></span><br>
+    <label asp-for="PW_Confirm"></label>
+    <input asp-for="PW_Confirm"><span asp-validation-for="Password"></span><br>
+    <button type="submit">Register</button>
+</form>
+
+<h1>Login</h1>
+<form asp-controller="Home" asp-action="Login" method="POST">
+    <span asp-validation-for="Email"></span>
+    <label asp-for="Email"></label>
+    <input asp-for="Email"><br>
+    <span asp-validation-for="Password"></span>
+    <label asp-for="Password"></label>
+    <input type="Password" name="Password"><br>
+    <button type="submit">Login</button>
+</form>
