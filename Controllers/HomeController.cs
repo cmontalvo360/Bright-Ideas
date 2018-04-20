@@ -80,6 +80,7 @@ namespace Bright_Ideas.Controllers
             if(HttpContext.Session.GetInt32("userId") != null)
             {
             List<Idea> AllIdeas = _context.ideas.OrderByDescending(x => x.Count)
+                                        .Include(u => u.Creator)
                                         .Include(u => u.Attendees).ThenInclude(y => y.User)
                                         .ToList();
             @ViewBag.ideas = AllIdeas;

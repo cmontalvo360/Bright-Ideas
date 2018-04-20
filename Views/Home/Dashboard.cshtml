@@ -10,11 +10,14 @@
     <textarea asp-for="Description"></textarea><span asp-validation-for="Description"></span>
     <button type="Subit">Idea!</button>
 </form>
+<br>
 
+<br>
 @foreach(var x in ViewBag.ideas){
     <p><a href="http://localhost:5000/users/@x.Creator.UserId">@x.Creator.Alias</a> says:  @x.Description</p>
 
     <p><a href="Like/@x.IdeaId">Like</a> <a href="ShowIdea/@x.IdeaId">@x.Count people</a> like this.</p>
+
     @if(ViewBag.user == x.Creator.UserId){
     <a href="http://localhost:5000/delete/@x.IdeaId">Delete</a>
     }
